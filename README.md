@@ -13,7 +13,7 @@
 | [order-intake-system](https://github.com/takato-y/order-intake-system) | 受注メールを生成AIで読み取って登録し、月末に顧客別・商品別の集計と Excel の帳票まで作る | n8n・生成AI・Python（FastAPI）・SQLite（SQL Server 用の定義も用意）・Excel VBA・Docker |
 | [gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow) | Google フォームの申請を金額で承認者に回し、なりすましを防ぐリンクで承認・却下する（仕組みは自動テストで確認。Google 上での動作は未確認） | Google Apps Script（TypeScript）・HTML |
 | [rag-document-qa](https://github.com/takato-y/rag-document-qa) | 社内規程・マニュアルから根拠つきで答え、書かれていないことには答えない AI 検索チャット | Python（FastAPI）・TypeScript・ローカル LLM（Ollama） |
-| [sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit) | 売上 CSV を読み込み、売上・粗利・前年比・ABC 分析を表示して Excel・印刷用ページに出力する | Python・SQL（SQLite）・Streamlit |
+| [sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit) | 売上 CSV を読み込み、売上・粗利・前年同月比・ABC 分析を表示して Excel・印刷用ページに出力する | Python・SQL（SQLite）・Streamlit |
 | [web-data-collector](https://github.com/takato-y/web-data-collector) | Web の価格・在庫を robots.txt を守って定期収集し、変化を Excel とチャットへの通知で知らせる | TypeScript（Playwright）・Python・PowerShell |
 | [n8n-ai-mail-triage](https://github.com/takato-y/n8n-ai-mail-triage) | 問い合わせメールを生成AIで分類し、要点の抽出・担当の振り分け・返信の下書きまで行う | n8n・生成AI |
 | [excel-vba-report-automation](https://github.com/takato-y/excel-vba-report-automation) | 月別の売上ファイル（CSV・Excel）をボタン1つで取りまとめ、集計帳票と PDF を作る | Excel VBA |
