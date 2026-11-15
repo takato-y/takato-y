@@ -21,11 +21,19 @@
 
 ## 画面の様子
 
-| 売上分析ダッシュボード | AI 検索チャット | 承認画面（スマートフォン幅・手元で描画） |
-|---|---|---|
-| <img src="https://raw.githubusercontent.com/takato-y/sales-dashboard-streamlit/main/docs/images/demo.gif" alt="売上分析ダッシュボードの操作の様子" width="360"> | <img src="https://raw.githubusercontent.com/takato-y/rag-document-qa/main/docs/images/demo.gif" alt="AI 検索チャットの操作の様子" width="360"> | <img src="https://raw.githubusercontent.com/takato-y/gas-approval-workflow/main/docs/images/demo.gif" alt="承認画面の操作の様子" width="150"> |
-
 売上分析と AI 検索は、実際に起動して撮影しました。承認画面は Google 環境ではなく、手元のブラウザで描画したものです。詳しい条件は各リポジトリの README に書いています。
+
+### 売上分析ダッシュボード（[sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit)）
+
+<img src="https://raw.githubusercontent.com/takato-y/sales-dashboard-streamlit/main/docs/images/demo.gif" alt="売上分析ダッシュボードの操作の様子" width="720">
+
+### AI 検索チャット（[rag-document-qa](https://github.com/takato-y/rag-document-qa)）
+
+<img src="https://raw.githubusercontent.com/takato-y/rag-document-qa/main/docs/images/demo.gif" alt="AI 検索チャットの操作の様子" width="720">
+
+### 承認画面・スマートフォン幅、手元で描画（[gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow)）
+
+<img src="https://raw.githubusercontent.com/takato-y/gas-approval-workflow/main/docs/images/demo.gif" alt="承認画面の操作の様子" width="300">
 
 ## どのリポジトリでもそろえていること
 
