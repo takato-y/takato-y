@@ -11,6 +11,7 @@
 | リポジトリ | できること | 主な技術 |
 |---|---|---|
 | [order-intake-system](https://github.com/takato-y/order-intake-system) | 受注メールを生成AIで読み取って登録し、月末に顧客別・商品別の集計と Excel の帳票まで作る | n8n・生成AI・Python（FastAPI）・SQLite（SQL Server 用の定義も用意）・Excel VBA・Docker |
+| [m365-equipment-lending](https://github.com/takato-y/m365-equipment-lending) | 備品・PC の貸出を Power Apps で申請し、承認・返却期限の督促・故障の受付・月次の集計まで Microsoft 365 の中で自動で回す（実際の環境で通しの動作を確認済み。社員の権限の分離は未確認） | Power Apps・Power Automate・SharePoint・Teams・Planner・Forms・Python |
 | [gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow) | Google フォームの申請を金額に応じた承認者へ回し、なりすましを防ぐリンクで承認・却下する（Google 上では主な流れを確認済み） | Google Apps Script（TypeScript）・HTML |
 | [rag-document-qa](https://github.com/takato-y/rag-document-qa) | 社内規程・マニュアルから根拠つきで答え、書かれていないことには答えない AI 検索チャット | Python（FastAPI）・TypeScript・ローカル LLM（Ollama） |
 | [sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit) | 売上 CSV を読み込み、売上・粗利・前年同月比・ABC 分析を表示して Excel・印刷用ページに出力する | Python・SQL（SQLite）・Streamlit |
@@ -21,7 +22,7 @@
 
 ## 画面の様子
 
-売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
+備品貸出アプリは、実際の Microsoft 365 の環境で撮影しました。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
 
 ### 売上分析ダッシュボード（[sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit)）
 
@@ -34,6 +35,10 @@
 ### 売上集計レポート（[excel-vba-report-automation](https://github.com/takato-y/excel-vba-report-automation)。Excel の実行結果）
 
 <img src="https://raw.githubusercontent.com/takato-y/excel-vba-report-automation/main/docs/images/report.png" alt="売上集計レポートの帳票（集計サマリー、顧客別・月別売上、商品別売上）" width="720">
+
+### 備品貸出アプリ（[m365-equipment-lending](https://github.com/takato-y/m365-equipment-lending)。Power Apps）
+
+<img src="https://raw.githubusercontent.com/takato-y/m365-equipment-lending/main/docs/images/app-equipment.png" alt="備品の一覧。区分で絞り込み、管理番号・品名で検索でき、利用可の備品に「申請する」が出る" width="720">
 
 ### 承認画面（[gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow)。スマートフォンの画面幅）
 
