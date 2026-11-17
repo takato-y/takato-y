@@ -22,7 +22,7 @@
 
 ## 画面の様子
 
-備品貸出アプリは、実際の Microsoft 365 の環境で撮影しました。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
+備品貸出アプリは、実際の Microsoft 365 の環境で撮影した画面をつないだものです。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
 
 ### 売上分析ダッシュボード（[sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit)）
 
@@ -38,7 +38,7 @@
 
 ### 備品貸出アプリ（[m365-equipment-lending](https://github.com/takato-y/m365-equipment-lending)。Power Apps）
 
-<img src="https://raw.githubusercontent.com/takato-y/m365-equipment-lending/main/docs/images/app-equipment.png" alt="備品の一覧。区分で絞り込み、管理番号・品名で検索でき、利用可の備品に「申請する」が出る" width="720">
+<img src="https://raw.githubusercontent.com/takato-y/m365-equipment-lending/main/docs/images/demo.gif" alt="申請から承認・Teams とメールの知らせ・予約済み、故障の報告から Planner のタスクまでの流れ" width="720">
 
 ### 承認画面（[gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow)。スマートフォンの画面幅）
 
