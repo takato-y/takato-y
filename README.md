@@ -19,10 +19,11 @@
 | [n8n-ai-mail-triage](https://github.com/takato-y/n8n-ai-mail-triage) | 問い合わせメールを生成AIで分類し、要点の抽出・担当の振り分け・返信の下書きまで行う | n8n・生成AI |
 | [excel-vba-report-automation](https://github.com/takato-y/excel-vba-report-automation) | 月別の売上ファイル（CSV・Excel）をボタン1つで取りまとめ、集計帳票と PDF を作る | Excel VBA |
 | [windows-automation-scripts](https://github.com/takato-y/windows-automation-scripts) | ファイルの仕分け・定期実行の登録・CSV の整形・ログの集計を行う Windows 業務の自動化ツール集 | PowerShell・Python |
+| [csv-diff-checker](https://github.com/takato-y/csv-diff-checker) | 先月と今月の商品リストのような2つのリストを比べ、増えた行・なくなった行・変わった項目を色分けして一覧にする Windows アプリ（配布用 EXE あり） | C#（.NET 10・WinForms）・MVP 構成 |
 
 ## 画面の様子
 
-備品貸出アプリは、実際の Microsoft 365 の環境で撮影した画面をつないだものです。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
+備品貸出アプリは、実際の Microsoft 365 の環境で撮影した画面をつないだものです。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。リスト変更点チェッカーは、配布用の EXE をサンプルデータで実際に起動して撮影しました。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
 
 ### 売上分析ダッシュボード（[sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit)）
 
@@ -43,6 +44,10 @@
 ### 承認画面（[gas-approval-workflow](https://github.com/takato-y/gas-approval-workflow)。スマートフォンの画面幅）
 
 <img src="https://raw.githubusercontent.com/takato-y/gas-approval-workflow/main/docs/images/demo.gif" alt="承認画面の操作の様子" width="300">
+
+### リスト変更点チェッカー（[csv-diff-checker](https://github.com/takato-y/csv-diff-checker)。Windows アプリ）
+
+<img src="https://raw.githubusercontent.com/takato-y/csv-diff-checker/main/docs/images/main.png" alt="2つの商品リストを比べた結果。変更したセルは変更前と変更後を黄色で、追加した行は緑、削除した行は赤で表示" width="720">
 
 ## どのリポジトリでもそろえていること
 
