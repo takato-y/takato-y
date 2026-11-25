@@ -20,10 +20,11 @@
 | [excel-vba-report-automation](https://github.com/takato-y/excel-vba-report-automation) | 月別の売上ファイル（CSV・Excel）をボタン1つで取りまとめ、集計帳票と PDF を作る | Excel VBA |
 | [windows-automation-scripts](https://github.com/takato-y/windows-automation-scripts) | ファイルの仕分け・定期実行の登録・CSV の整形・ログの集計を行う Windows 業務の自動化ツール集 | PowerShell・Python |
 | [csv-diff-checker](https://github.com/takato-y/csv-diff-checker) | 先月と今月の商品リストのような2つのリストを比べ、増えた行・なくなった行・変わった項目を色分けして一覧にする Windows アプリ（配布用 EXE あり） | C#（.NET 10・WinForms）・MVP 構成 |
+| [FishingNote](https://github.com/takato-y/FishingNote) | 釣りの道具の管理・出発前の持ち物チェック・釣果のワンタップ記録・近くの釣り場探しを1つにまとめ、データを端末の中だけに置く Android アプリ（インターネットの権限なし。バックアップはパスワードで暗号化。エミュレータで動作を確認、ストアには未公開） | Kotlin・Jetpack Compose・Room |
 
 ## 画面の様子
 
-備品貸出アプリは、実際の Microsoft 365 の環境で撮影した画面をつないだものです。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。リスト変更点チェッカーは、配布用の EXE をサンプルデータで実際に起動して撮影しました。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
+備品貸出アプリは、実際の Microsoft 365 の環境で撮影した画面をつないだものです。売上分析と AI 検索は、実際に起動して撮影しました。売上集計レポートは、サンプルデータで Excel のマクロを実際に動かした結果です。承認画面は、Google 環境ではなく手元のブラウザで描画したものです。リスト変更点チェッカーは、配布用の EXE をサンプルデータで実際に起動して撮影しました。釣り道具ノートは、架空の見本データを入れた Android のエミュレータで撮影しました。各リポジトリの動作確認の範囲は、それぞれの README に書いています。
 
 ### 売上分析ダッシュボード（[sales-dashboard-streamlit](https://github.com/takato-y/sales-dashboard-streamlit)）
 
@@ -48,6 +49,10 @@
 ### リスト変更点チェッカー（[csv-diff-checker](https://github.com/takato-y/csv-diff-checker)。Windows アプリ）
 
 <img src="https://raw.githubusercontent.com/takato-y/csv-diff-checker/main/docs/images/main.png" alt="2つの商品リストを比べた結果。変更したセルは変更前と変更後を黄色で、追加した行は緑、削除した行は赤で表示" width="720">
+
+### 釣り道具ノート（[FishingNote](https://github.com/takato-y/FishingNote)。Android アプリ）
+
+<img src="https://raw.githubusercontent.com/takato-y/FishingNote/main/docs/images/log-one-tap.png" alt="釣行の記録の画面。魚のボタンを押すと今日の記録に1匹足し、その上に「元に戻す」が出る" width="300">
 
 ## どのリポジトリでもそろえていること
 
