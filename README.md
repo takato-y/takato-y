@@ -20,7 +20,7 @@
 | [excel-vba-report-automation](https://github.com/takato-y/excel-vba-report-automation) | 月別の売上ファイル（CSV・Excel）をボタン1つで取りまとめ、集計帳票と PDF を作る | Excel VBA |
 | [windows-automation-scripts](https://github.com/takato-y/windows-automation-scripts) | ファイルの仕分け・定期実行の登録・CSV の整形・ログの集計を行う Windows 業務の自動化ツール集 | PowerShell・Python |
 | [csv-diff-checker](https://github.com/takato-y/csv-diff-checker) | 先月と今月の商品リストのような2つのリストを比べ、増えた行・なくなった行・変わった項目を色分けして一覧にする Windows アプリ（配布用 EXE あり） | C#（.NET 10・WinForms）・MVP 構成 |
-| [FishingNote](https://github.com/takato-y/FishingNote) | 釣りの道具の管理・出発前の持ち物チェック・釣果のワンタップ記録・近くの釣り場探しを1つにまとめ、データを端末の中だけに置く Android アプリ（インターネットの権限なし。バックアップはパスワードで暗号化。エミュレータで動作を確認、ストアには未公開） | Kotlin・Jetpack Compose・Room |
+| [FishingNote](https://github.com/takato-y/FishingNote) | 釣りの道具の管理・出発前の持ち物チェック・釣果のワンタップ記録・近くの釣り場探しを1つにまとめ、データを端末の中だけに置く Android アプリ（インターネットの権限なし。バックアップはパスワードで暗号化できる。エミュレータで動作を確認、ストアには未公開） | Kotlin・Jetpack Compose・Room |
 
 ## 画面の様子
 
